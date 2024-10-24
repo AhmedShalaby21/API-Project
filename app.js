@@ -3,6 +3,7 @@ import connectDB from './config/db.js';
 import authRoutes from './src/routes/auth.routes.js';
 import organizationRoutes from './src/routes/organization.routes.js'
 import { config } from 'dotenv';
+import cors from 'cors'
 
 
 config();
