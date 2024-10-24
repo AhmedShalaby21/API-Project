@@ -12,7 +12,7 @@ config();
 connectDB();
 
 const app = express();
-
+app.use(cors());
 
 // Middleware
 app.use(express.json());
